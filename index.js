@@ -11,7 +11,7 @@ function nowServing () {
   if (katzDeli[0] === undefined) {
     servedCustomer = "There is nobody waiting to be served!"
   } else {
-   servedCustomer = katzDeli[0];
+   servedCustomer = `Currently serving ${katzDeli[0]}.`;
   }
   katzDeli.shift();
   return servedCustomer;
