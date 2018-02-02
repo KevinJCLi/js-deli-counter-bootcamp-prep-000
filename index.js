@@ -6,3 +6,9 @@ function takeANumber (katzDeliLine, customerName) {
   return `Welcome, ${customerName}. You are number ${linePosition} in line.`;
 }
 
+function nowServing () {
+  var servedCustomer = katzDeli[0];
+  if ()
+  katzDeli.shift();
+  return servedCustomer;
+}
