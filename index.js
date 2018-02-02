@@ -14,7 +14,7 @@ function nowServing () {
    servedCustomer = katzDeli[0];
   }
   katzDeli.shift();
-  return `Currently serving ${servedCustomer}`;
+  return servedCustomer;
 }
 
 function currentLine () {
