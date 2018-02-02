@@ -18,5 +18,12 @@ function nowServing () {
 }
 
 function currentLine () {
-  if 
+  if (katzDeli[0] === undefined) {
+    return "The line is currently empty";
+  } else {
+    var theCurrentLine = [];
+    for (let i = 0; i < katzDeli.length; i++) {
+      theCurrentLine.push(`1. ${katzDeli[i]`)
+    }
+  }
 }
