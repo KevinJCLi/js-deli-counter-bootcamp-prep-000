@@ -6,7 +6,7 @@ function takeANumber (katzDeliLine, customerName) {
   return `Welcome, ${customerName}. You are number ${linePosition} in line.`;
 }
 
-function nowServing () {
+function nowServing (katzDeliLine) {
   var servedCustomer;
   if (katzDeli[0] === undefined) {
     servedCustomer = "There is nobody waiting to be served!"
@@ -17,7 +17,7 @@ function nowServing () {
   return servedCustomer;
 }
 
-function currentLine () {
+function currentLine (katzDeliLine) {
   if (katzDeli[0] === undefined) {
     return "The line is currently empty.";
   } else {
