@@ -8,21 +8,21 @@ function takeANumber (katzDeliLine, customerName) {
 
 function nowServing (katzDeliLine) {
   var servedCustomer;
-  if (katzDeli[0] === undefined) {
+  if (katzDeliLine[0] === undefined) {
     servedCustomer = "There is nobody waiting to be served!"
   } else {
-   servedCustomer = `Currently serving ${katzDeli[0]}.`;
+   servedCustomer = `Currently serving ${katzDeliLine[0]}.`;
   }
   katzDeli.shift();
   return servedCustomer;
 }
 
 function currentLine (katzDeliLine) {
-  if (katzDeli[0] === undefined) {
+  if (katzDeliLine[0] === undefined) {
     return "The line is currently empty.";
   } else {
     var theCurrentLine = [];
-    for (let i = 0; i < katzDeli.length; i++) {
+    for (let i = 0; i < katzDeliLine.length; i++) {
       theCurrentLine.push("1. " +katzDeli[i]);
     }
     return `The line is currently: ${theCurrentLine}`;
