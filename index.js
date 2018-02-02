@@ -3,9 +3,9 @@ var katzDeli = [];
 function takeANumber (katzDeliLine, customerName) {
   var linePosition = katzDeliLine + 1, 
     ordinalIndicator;
-  if (line position === 1) {
+  if (lineposition === 1) {
     ordinalIndicator = "st";
-  } else if (line position === 2) {
+  } else if (lineposition === 2) {
     ordinalIndicator = "nd";
   } else {
     ordinalIndicator = "th"
