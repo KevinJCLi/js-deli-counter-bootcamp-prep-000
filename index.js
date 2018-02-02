@@ -7,9 +7,16 @@ function takeANumber (katzDeliLine, customerName) {
 }
 
 function nowServing () {
-  if (katzDeli[0] = )
-  var servedCustomer = katzDeli[0];
-  
+  var servedCustomer;
+  if (katzDeli[0] === undefined) {
+    servedCustomer = "There is nobody waiting to be served!"
+  } else {
+   servedCustomer = katzDeli[0];
+  }
   katzDeli.shift();
   return servedCustomer;
+}
+
+function currentLine () {
+  if 
 }
