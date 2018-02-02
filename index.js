@@ -13,7 +13,7 @@ function nowServing (katzDeliLine) {
   } else {
    servedCustomer = `Currently serving ${katzDeliLine[0]}.`;
   }
-  katzDeli.shift();
+  katzDeliLine.shift();
   return servedCustomer;
 }
 
