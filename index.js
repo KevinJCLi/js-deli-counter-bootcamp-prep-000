@@ -1,7 +1,7 @@
 var katzDeli = [];
 
 function takeANumber (katzDeliLine, customerName) {
-  var linePosition = katzDeliLine + 1, 
+  var linePosition = katzDeliLine.length + 1, 
     ordinalIndicator;
   if (lineposition === 1) {
     ordinalIndicator = "st";
