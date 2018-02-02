@@ -7,8 +7,9 @@ function takeANumber (katzDeliLine, customerName) {
 }
 
 function nowServing () {
+  if (katzDeli[0] = )
   var servedCustomer = katzDeli[0];
-  if ()
+  
   katzDeli.shift();
   return servedCustomer;
 }
